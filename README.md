@@ -16,6 +16,12 @@ npm run start
 
 Open http://localhost:3000
 
+## Deploy (Vercel)
+Build command: `npm run build`  
+Output directory: `dist`  
+
+`vercel.json` is already configured for this. After connecting the GitHub repo, redeploy so Vercel uses `dist` (not `public`).
+
 ## First use
 1. Go to **Data Upload**
 2. Click **Load sample data** (or upload your CSVs)

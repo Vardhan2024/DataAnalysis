@@ -1,5 +1,6 @@
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
+const CopyWebpackPlugin = require('copy-webpack-plugin')
 
 module.exports = {
   entry: './src/main.tsx',
@@ -33,6 +34,9 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './public/index.html',
       favicon: './public/favicon.svg',
+    }),
+    new CopyWebpackPlugin({
+      patterns: [{ from: 'public/samples', to: 'samples' }],
     }),
   ],
   devServer: {
