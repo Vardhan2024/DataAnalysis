@@ -1,0 +1,9 @@
+product_id,product_name,category,unit_cost,current_stock,safety_stock,reorder_point,moq,preferred_vendor_id
+P-1042,Stretch Wrap 18in,Packaging,12.5,42,30,70,50,V01
+P-2088,Vapor Barrier Sheet,Barrier,28,110,40,120,100,V02
+P-3310,Sealing Tape 2in,Tape,4.2,260,50,240,100,V03
+P-4415,Foam Board 4x8,Board,18.75,55,25,80,40,V01
+P-5521,Corner Guard Kit,Accessories,9.1,320,40,300,50,V04
+P-6602,Adhesive Primer,Chemical,22,28,20,45,24,V05
+P-7710,Membrane Roll 40in,Barrier,35.5,75,30,90,20,V02
+P-8820,Flashing Tape,Tape,6.8,140,35,100,60,V03
